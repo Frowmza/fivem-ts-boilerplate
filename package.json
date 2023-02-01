@@ -1,5 +1,5 @@
 {
-  "name": "tstemplate",
+  "name": "fiveM-ts-boilerplate",
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
@@ -9,9 +9,6 @@
     "vite": "^4.0.4"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "watch": "vite watch"
+    "build": "vite build"
   }
 }
