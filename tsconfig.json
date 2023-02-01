@@ -1,9 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "*": ["types/*"]
-    },
     "outDir": "./",
     "noImplicitAny": false,
     "module": "commonjs",
@@ -17,6 +13,6 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
-  "include": ["./**/*"],
-  "exclude": ["**/node_modules", "**/__tests__/*"]
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules/**/*", "./build/**/*"]
 }
